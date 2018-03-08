@@ -1,0 +1,21 @@
+Errores externos ( 503 )
+e5031 => database error
+
+Not found ( 404 )
+e4041 => user not found.
+e4042 => user has not login methods.
+
+Peticiones mal formuladas ( 400 )
+e4001 => undefined login provider
+
+Privilegios ( 401 )
+e4011 => invalid password
+
+Conflictos ( 409 )
+e4091 => email already registered
+
+Errores internos
+e8001 => información incorrecta en doRegister
+e8002 => error hasheando password
+e8003 => undefined login provider => ¿Sustituir por el e4001?
+
